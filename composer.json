@@ -2,7 +2,7 @@
     "name": "fudugo/contactform",
     "description": "Contactform package from fudugo.com",
     "type": "metapackage",
-    "license": "This software is free to use and modify.",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Pravin Durugkar",
