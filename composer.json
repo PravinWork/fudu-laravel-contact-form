@@ -1,0 +1,19 @@
+{
+    "name": "fudugo/contactform",
+    "description": "Contactform package from fudugo.com",
+    "type": "metapackage",
+    "license": "Test License",
+    "authors": [
+        {
+            "name": "Pravin Durugkar",
+            "email": "pravinfwork@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FuduGo\\Contactform\\": "src/"
+        }
+    }
+}
