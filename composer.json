@@ -1,7 +1,7 @@
 {
     "name": "fudugo/contactform",
     "description": "Contactform package from fudugo.com",
-    "type": "metapackage",
+    "type": "laravel",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -9,8 +9,10 @@
             "email": "pravinfwork@gmail.com"
         }
     ],
-    "minimum-stability": "alpha",
-    "require": {},
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=5.6"
+    },
     "autoload": {
         "psr-4": {
             "FuduGo\\Contactform\\": "src/"
