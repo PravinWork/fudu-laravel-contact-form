@@ -15,12 +15,6 @@ Add the following provider in your `config/app.php`:
 FuduGo\Contactform\ContactFormServiceProvider::class,
 ```
 
-Publish the config file `config/votable.php`:
-
-```
-php artisan vendor:publish --provider="JrMiranda\Votable\VotableServiceProvider"
-```
-
 Run the migrations:
 
 ```
@@ -28,7 +22,10 @@ php artisan migrate
 ```
 
 ## Usage
-
+Call the url 
+```
+http://localhost:8000/contact
+```
 
 ## References
 
